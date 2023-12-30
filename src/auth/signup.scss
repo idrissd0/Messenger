@@ -18,6 +18,7 @@ body {
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
 }
+
 form {
   position: absolute;
   top: 50%;
@@ -99,10 +100,6 @@ form {
       border: solid 2px #4eb8dd;
     }
   }
-  // input[type="email"],
-  // input[type="text"] {
-  //   padding: 14px 1em 0px;
-  // }
   button {
     display: block;
     margin: 0;
@@ -145,7 +142,6 @@ form {
     }
 
     &.focusWithText .helper {
-      /*input[type='email']:focus + .helper {*/
       transform: translate(1.5em, 1.2em) scale(0.6);
       opacity: 1;
     }

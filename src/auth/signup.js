@@ -685,7 +685,7 @@ function Signup() {
 
         <div className="inputGroup inputGroup1">
           <label for="email1">Email</label>
-          <input type="text" id="email" className="email" maxlength="256" />
+          <input type="email" id="email" className="email" maxlength="256" />
           <p className="helper helper1">email@domain.com</p>
           <span className="indicator"></span>
         </div>
